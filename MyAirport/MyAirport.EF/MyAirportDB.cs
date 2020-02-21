@@ -2,6 +2,7 @@
 using System.Collections.Concurrent;
 using LO.MyAirport.EF;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 namespace MyAirport.EF
 {
@@ -11,9 +12,8 @@ namespace MyAirport.EF
         public DbSet<Bagage> Bagages { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-            options.UseSqlite("Data Source=blogging.db");
-        public MyAirportDB()
         {
+            options.UseSqlite("Data Source=MyAirport.db");
         }
     }
 }

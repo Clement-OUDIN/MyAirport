@@ -1,0 +1,10 @@
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport.EF/obj/Debug/netcoreapp3.1/MyAirport.EF.csprojAssemblyReference.cache
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport.EF/obj/Debug/netcoreapp3.1/MyAirport.EF.AssemblyInfoInputs.cache
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport.EF/obj/Debug/netcoreapp3.1/MyAirport.EF.AssemblyInfo.cs
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport.EF/bin/Debug/netcoreapp3.1/MyAirport.EF.deps.json
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport.EF/bin/Debug/netcoreapp3.1/MyAirport.EF.dll
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport.EF/bin/Debug/netcoreapp3.1/MyAirport.EF.pdb
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport.EF/obj/Debug/netcoreapp3.1/MyAirport.EF.dll
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport.EF/obj/Debug/netcoreapp3.1/MyAirport.EF.pdb
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport.EF/bin/Debug/netcoreapp3.1/MyAirport.EF.runtimeconfig.json
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport.EF/bin/Debug/netcoreapp3.1/MyAirport.EF.runtimeconfig.dev.json
