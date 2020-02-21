@@ -1,0 +1,11 @@
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport/bin/Debug/netcoreapp3.1/Console
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport/bin/Debug/netcoreapp3.1/Console.deps.json
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport/bin/Debug/netcoreapp3.1/Console.runtimeconfig.json
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport/bin/Debug/netcoreapp3.1/Console.runtimeconfig.dev.json
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport/bin/Debug/netcoreapp3.1/Console.dll
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport/bin/Debug/netcoreapp3.1/Console.pdb
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport/obj/Debug/netcoreapp3.1/Console.csprojAssemblyReference.cache
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport/obj/Debug/netcoreapp3.1/Console.AssemblyInfoInputs.cache
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport/obj/Debug/netcoreapp3.1/Console.AssemblyInfo.cs
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport/obj/Debug/netcoreapp3.1/Console.dll
+/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport/obj/Debug/netcoreapp3.1/Console.pdb
