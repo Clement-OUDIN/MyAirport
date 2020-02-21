@@ -1,17 +1,27 @@
 ﻿<Properties StartupConfiguration="{09EDC4E3-A9D8-4B23-9046-A98FE7051DD8}|Default">
   <MonoDevelop.Ide.ItemProperties.Console PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyAirport.EF/Class1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyAirport.EF/MyAirportDB.cs">
     <Files>
-      <File FileName="MyAirport/Program.cs" Line="3" Column="11" />
-      <File FileName="MyAirport.EF/Class1.cs" Line="1" Column="1" />
+      <File FileName="MyAirport/Program.cs" Line="2" Column="23" />
+      <File FileName="MyAirport.EF/Class1.cs" Line="8" Column="2" />
+      <File FileName="MyAirport.EF/Vol.cs" Line="1" Column="1" />
+      <File FileName="MyAirport.EF/MyAirportDB.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MyAirport" expanded="True">
-            <Node name="Console" expanded="True" />
+            <Node name="Console" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+            </Node>
             <Node name="MyAirport.EF" expanded="True">
-              <Node name="Class1.cs" selected="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+              <Node name="MyAirportDB.cs" selected="True" />
             </Node>
           </Node>
         </State>
