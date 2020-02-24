@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{09EDC4E3-A9D8-4B23-9046-A98FE7051DD8}|Default">
   <MonoDevelop.Ide.ItemProperties.Console PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyAirport.EF/MyAirportDB.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyAirport.EF/MyAirport.db">
     <Files>
-      <File FileName="MyAirport/Program.cs" Line="2" Column="23" />
-      <File FileName="MyAirport.EF/Class1.cs" Line="8" Column="2" />
-      <File FileName="MyAirport.EF/Vol.cs" Line="1" Column="1" />
-      <File FileName="MyAirport.EF/MyAirportDB.cs" Line="1" Column="1" />
+      <File FileName="MyAirport/Program.cs" Line="12" Column="52" />
+      <File FileName="MyAirport.EF/Class1.cs" Line="8" Column="40" />
+      <File FileName="MyAirport.EF/Vol.cs" Line="12" Column="40" />
+      <File FileName="MyAirport.EF/MyAirportDB.cs" Line="18" Column="5" />
+      <File FileName="MyAirport.EF/MyAirport.db" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,14 +15,16 @@
             <Node name="Console" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
                 <Node name="ProjectDependencies" expanded="True" />
               </Node>
             </Node>
             <Node name="MyAirport.EF" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
               </Node>
-              <Node name="MyAirportDB.cs" selected="True" />
+              <Node name="MyAirport.db" selected="True" />
             </Node>
           </Node>
         </State>
@@ -33,7 +36,6 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.MyAirport.EF FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

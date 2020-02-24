@@ -13,7 +13,8 @@ namespace MyAirport.EF
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlite("Data Source=MyAirport.db");
+
+            options.UseMySql(@"User Id=root;Host=localhost;Database=Test;");
         }
     }
 }
