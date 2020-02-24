@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport/Console.csproj": {}
+    "C:\\Users\\lulul\\Source\\Repos\\Clement-OUDIN\\MyAirport\\MyAirport\\MyAirport\\Console.csproj": {}
   },
   "projects": {
-    "/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport.EF/MyAirport.EF.csproj": {
+    "C:\\Users\\lulul\\Source\\Repos\\Clement-OUDIN\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport.EF/MyAirport.EF.csproj",
+        "projectUniqueName": "C:\\Users\\lulul\\Source\\Repos\\Clement-OUDIN\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj",
         "projectName": "MyAirport.EF",
-        "projectPath": "/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport.EF/MyAirport.EF.csproj",
-        "packagesPath": "/Users/clementoudin/.nuget/packages/",
-        "outputPath": "/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport.EF/obj/",
+        "projectPath": "C:\\Users\\lulul\\Source\\Repos\\Clement-OUDIN\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj",
+        "packagesPath": "C:\\Users\\lulul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lulul\\Source\\Repos\\Clement-OUDIN\\MyAirport\\MyAirport\\MyAirport.EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/clementoudin/.config/NuGet/NuGet.Config"
+          "C:\\Users\\lulul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,7 +48,13 @@
               "target": "Package",
               "version": "[3.1.2, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.2, )"
             },
@@ -74,33 +82,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport/Console.csproj": {
+    "C:\\Users\\lulul\\Source\\Repos\\Clement-OUDIN\\MyAirport\\MyAirport\\MyAirport\\Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport/Console.csproj",
+        "projectUniqueName": "C:\\Users\\lulul\\Source\\Repos\\Clement-OUDIN\\MyAirport\\MyAirport\\MyAirport\\Console.csproj",
         "projectName": "Console",
-        "projectPath": "/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport/Console.csproj",
-        "packagesPath": "/Users/clementoudin/.nuget/packages/",
-        "outputPath": "/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport/obj/",
+        "projectPath": "C:\\Users\\lulul\\Source\\Repos\\Clement-OUDIN\\MyAirport\\MyAirport\\MyAirport\\Console.csproj",
+        "packagesPath": "C:\\Users\\lulul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lulul\\Source\\Repos\\Clement-OUDIN\\MyAirport\\MyAirport\\MyAirport\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/clementoudin/.config/NuGet/NuGet.Config"
+          "C:\\Users\\lulul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport.EF/MyAirport.EF.csproj": {
-                "projectPath": "/Users/clementoudin/Desktop/git/MyAirport/MyAirport/MyAirport.EF/MyAirport.EF.csproj"
+              "C:\\Users\\lulul\\Source\\Repos\\Clement-OUDIN\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj": {
+                "projectPath": "C:\\Users\\lulul\\Source\\Repos\\Clement-OUDIN\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj"
               }
             }
           }
@@ -119,6 +129,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.2, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
@@ -136,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

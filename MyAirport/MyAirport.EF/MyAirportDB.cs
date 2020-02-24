@@ -13,8 +13,7 @@ namespace MyAirport.EF
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-
-            options.UseMySql(@"User Id=root;Host=localhost;Database=Test;");
+            options.UseSqlServer(@"Server = (localdb)\MSSQLLocalDB; Database = myairport; Trusted_Connection = True;");
         }
     }
 }

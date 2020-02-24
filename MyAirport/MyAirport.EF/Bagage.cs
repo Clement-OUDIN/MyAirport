@@ -11,7 +11,7 @@ namespace LO.MyAirport.EF
         public Vol Vol { get; set; }
         [ForeignKey("VolId")]
         public int VolId { get; set; }
-        public String CODEIATA { get; set; }
+        public string CODEIATA { get; set; }
         public DateTime DATECREATION { get; set; }
         public char CLASSE { get; set; }
         public String SSUR { get; set; }

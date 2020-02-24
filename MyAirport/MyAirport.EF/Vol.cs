@@ -7,8 +7,8 @@ namespace LO.MyAirport.EF
     {
         [Key]
         public int VolId { get; set; }
-        public int CIE { get; set; }
-        public String LIG { get; set; }
+        public string CIE { get; set; }
+        public string LIG { get; set; }
         public Int16 JEX { get; set; }
         public DateTime DHC { get; set; }
         public String PKG { get; set; }
