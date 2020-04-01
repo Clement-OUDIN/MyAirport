@@ -15,5 +15,7 @@ namespace LO.MyAirport.EF
         public String IMM { get; set; }
         public Int16 PAX { get; set; }
         public String DES { get; set; }
+
+        //test commit
     }
 }
