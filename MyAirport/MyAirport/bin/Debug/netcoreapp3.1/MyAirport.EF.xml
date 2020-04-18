@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyAirport.EF</name>
+    </assembly>
+    <members>
+        <member name="P:LO.MyAirport.EF.Bagage.BagageId">
+            <summary>
+            Identifiant du bagage
+            </summary>
+        </member>
+        <member name="P:LO.MyAirport.EF.Bagage.Vol">
+            <summary>
+            Propriété de naviguate
+            </summary>
+        </member>
+        <member name="P:LO.MyAirport.EF.Bagage.VolId">
+            <summary>
+            Identifiant du vol associé au bagage
+            </summary>
+        </member>
+        <member name="P:LO.MyAirport.EF.Bagage.DateCreation">
+            <summary>
+            Date d'ajout du bagage
+            </summary>
+        </member>
+        <member name="P:LO.MyAirport.EF.Bagage.CodeIata">
+            <summary>
+            Code Iata de la compagnie associée au bagage
+            </summary>
+        </member>
+        <member name="P:LO.MyAirport.EF.Bagage.Classe">
+            <summary>
+            Classe associé au bagage
+            </summary>
+        </member>
+        <member name="P:LO.MyAirport.EF.Bagage.Prioritaire">
+            <summary>
+            Propriétaire du bagage
+            </summary>
+        </member>
+        <member name="P:LO.MyAirport.EF.Bagage.Sta">
+            <summary>
+            Status du bagage
+            </summary>
+        </member>
+        <member name="P:LO.MyAirport.EF.Bagage.Ssur">
+            <summary>
+            Status de sureté du bagage
+            </summary>
+        </member>
+        <member name="P:LO.MyAirport.EF.Bagage.Destination">
+            <summary>
+            Destination finale du vol associé au bagage
+            </summary>
+        </member>
+        <member name="P:LO.MyAirport.EF.Bagage.Escale">
+            <summary>
+            Escales par lesquelles va circuler le bagage
+            </summary>
+        </member>
+        <member name="M:LO.MyAirport.EF.Bagage.#ctor(System.String,System.DateTime)">
+            <summary>
+            Constructeur d'une instance de bagage
+            </summary>
+            <param name="codeIata">Code Iata du vol associé à associer au bagage</param>
+            <param name="dateCreation">Date d'ajout du bagage</param>
+        </member>
+        <member name="T:LO.MyAirport.EF.Vol">
+            <summary>
+            Classe Vol, représente une instance de Vol
+            </summary>
+        </member>
+        <member name="P:LO.MyAirport.EF.Vol.VolId">
+            <summary>
+            Clé Primaire de ma class Vol
+            </summary>
+        </member>
+        <member name="P:LO.MyAirport.EF.Vol.Cie">
+            <summary>
+            Compagnie du vol
+            </summary>
+        </member>
+        <member name="P:LO.MyAirport.EF.Vol.Lig">
+            <summary>
+            Ligne du vol
+            </summary>
+        </member>
+        <member name="P:LO.MyAirport.EF.Vol.Dhc">
+            <summary>
+            Dernier horaire connu, horaire de départ du col
+            </summary>
+        </member>
+        <member name="P:LO.MyAirport.EF.Vol.Pkg">
+            <summary>
+            Parking affecté au vol
+            </summary>
+        </member>
+        <member name="P:LO.MyAirport.EF.Vol.Imm">
+            <summary>
+            N° immatriculation de l'avion
+            </summary>
+        </member>
+        <member name="P:LO.MyAirport.EF.Vol.Pax">
+            <summary>
+            Nombre de passager du vol
+            </summary>
+        </member>
+        <member name="P:LO.MyAirport.EF.Vol.Des">
+            <summary>
+            Destination finale du vol
+            </summary>
+        </member>
+        <member name="P:LO.MyAirport.EF.Vol.Bagages">
+            <summary>
+            Propriété de naviguation
+            </summary>
+        </member>
+        <member name="M:LO.MyAirport.EF.Vol.#ctor(System.String,System.String,System.DateTime)">
+            <summary>
+            Constructeur d'une instance de vol
+            </summary>
+            <param name="compagnie"></param>
+            <param name="ligne"></param>
+            <param name="dhc"></param>
+        </member>
+    </members>
+</doc>

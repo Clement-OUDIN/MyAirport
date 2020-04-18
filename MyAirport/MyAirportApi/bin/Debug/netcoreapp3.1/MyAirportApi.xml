@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyAirportApi</name>
+    </assembly>
+    <members>
+        <member name="M:LO.MyAirport.API.Controllers.BagagesController.GetBagages">
+            <summary>
+            Selectionne l'ensemble des bagages de manière asynchrone
+            </summary>
+            <returns>Un objet Task qui contient un ActionResult qui lui même contient une liste de Bagages</returns>
+        </member>
+        <member name="M:LO.MyAirport.API.Controllers.BagagesController.GetBagage(System.Int32)">
+            <summary>
+            Selection les bagages grâce à leur identifiant de manière asynchrone
+            </summary>
+            <param name="id">Identifiant du bagage</param>
+            <returns></returns>
+        </member>
+        <member name="M:LO.MyAirport.API.Controllers.BagagesController.PutBagage(System.Int32,LO.MyAirport.EF.Bagage)">
+            <summary>
+            Méthode permettant la modification d'un bagage
+            To protect from overposting attacks, please enable the specific properties you want to bind to, for
+            more details see https://aka.ms/RazorPagesCRUD.
+            </summary>
+            <param name="id">Identifiant du bagage a modifier</param>
+            <param name="bagage">Nouvelles valeurs a remplacer dans le bagage</param>
+            <returns></returns>
+        </member>
+        <member name="M:LO.MyAirport.API.Controllers.BagagesController.PostBagage(LO.MyAirport.EF.Bagage)">
+             <summary>
+             Méthode permettant l'ajout d'un bagage
+            To protect from overposting attacks, please enable the specific properties you want to bind to, for
+             more details see https://aka.ms/RazorPagesCRUD.
+             </summary>
+             <param name="bagage"></param>
+             <returns></returns>
+        </member>
+        <member name="M:LO.MyAirport.API.Controllers.BagagesController.DeleteBagage(System.Int32)">
+            <summary>
+            Méthode permettant de supprimer un bagage grâce à son identifiant
+            </summary>
+            <param name="id">Identifiant du bagage à supprimer</param>
+            <returns></returns>
+        </member>
+        <member name="M:LO.MyAirport.API.Controllers.BagagesController.BagageExists(System.Int32)">
+            <summary>
+            Méthode permettant de dire si un bagage existe ou non
+            </summary>
+            <param name="id">Identifiant du bagage à vérifier</param>
+            <returns>un booleen</returns>
+        </member>
+        <member name="M:LO.MyAirport.API.Controllers.VolsController.GetVols">
+            <summary>
+            Selectionne l'ensemble des vols de manière asynchrone
+            </summary>
+            <returns>Un objet Task qui contient un ActionResult qui lui même contient une liste de vols</returns>
+        </member>
+        <member name="M:LO.MyAirport.API.Controllers.VolsController.GetVol(System.Int32,System.Boolean)">
+            <summary>
+            L'option bagages permet d'indiquer si l'on veut voir la liste des bagages du vol ou non
+            si false bagages = null
+            </summary>
+            <param name="id"></param>
+            <param name="bagages">Indique si l'on veut que la liste des bagages du vol soit incluse dans le résultat</param>
+            <returns></returns>
+        </member>
+        <member name="M:LO.MyAirport.API.Controllers.VolsController.PutVol(System.Int32,LO.MyAirport.EF.Vol)">
+            <summary>
+            Méthode permettant de modifier un vol
+            To protect from overposting attacks, please enable the specific properties you want to bind to, for
+            more details see https://aka.ms/RazorPagesCRUD.
+            </summary>
+            <param name="id">Identifiant du vol à modifier</param>
+            <param name="vol">Nouvelles valeur à rentrer dans le vol</param>
+            <returns></returns>
+        </member>
+        <member name="M:LO.MyAirport.API.Controllers.VolsController.PostVol(LO.MyAirport.EF.Vol)">
+            <summary>
+            Méthode permettant l'ajout d'un vol
+            To protect from overposting attacks, please enable the specific properties you want to bind to, for
+            more details see https://aka.ms/RazorPagesCRUD.
+            </summary>
+            <param name="vol"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LO.MyAirport.API.Controllers.VolsController.DeleteVol(System.Int32)">
+            <summary>
+            Méthode permettant la suppression d'un vol grâce à son id
+            </summary>
+            <param name="id">Identifiant du vol à supprimer</param>
+            <returns></returns>
+        </member>
+        <member name="M:LO.MyAirport.API.Controllers.VolsController.VolExists(System.Int32)">
+            <summary>
+            Méthode permettant de savoir si un vol existe ou non
+            </summary>
+            <param name="id">Identifiant du vol à vérifier</param>
+            <returns>Un booleen</returns>
+        </member>
+    </members>
+</doc>

@@ -1,52 +1,66 @@
 ﻿using System;
 using System.Linq;
 using LO.MyAirport.EF;
-using MyAirport.EF;
+using System.Configuration;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
-namespace LO.MyAirport.console
+
+namespace LO.MyAirport.ConsoleApp
 {
     class Program
     {
+        public static readonly ILoggerFactory MyLoggerFactory = LoggerFactory.Create(builder => { builder.AddConsole(); });
+
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Hello World!");
-            MyAirportDB Roissy = new MyAirportDB();
+            //MyAirportContext airport = new MyAirportContext();
+            /*
+            var connectionString = ConfigurationManager.ConnectionStrings["DBConnection"].ConnectionString;
+            var optionsBuilder = new DbContextOptionsBuilder<MyAirportContext>();
+            optionsBuilder
+                    .UseSqlServer(connectionString)
+                    .UseLoggerFactory(MyLoggerFactory);
+
+            ILogger logger = MyLoggerFactory.CreateLogger<Program>();
+            */
             System.Console.WriteLine("MyAirport project bonjour!!");
-            using (var db = new MyAirportDB())
+           //using (var db = new MyAirportContext(optionsBuilder.Options))
+           using (var db = new MyAirportContext())
             {
                 // Create
                 Console.WriteLine("Création du vol LH1232");
                 Vol v1 = new Vol
                 {
-                    CIE = "LH",
-                    DES = "BKK",
-                    DHC = Convert.ToDateTime("14/01/2020 16:45"),
-                    IMM = "RZ62",
-                    LIG = "1232",
-                    PKG = "R52",
-                    PAX = 238
+                    Cie = "LH",
+                    Des = "BKK",
+                    Dhc = Convert.ToDateTime("14 January 2020 4:45:00 PM"),
+                    Imm = "RZ62",
+                    Lig = "1232",
+                    Pkg = "R52",
+                    Pax = 238
                 };
                 db.Add(v1);
 
                 Console.WriteLine("Creation vol SQ333");
                 Vol v2 = new Vol
                 {
-                    CIE = "SK",
-                    DES = "CDG",
-                    DHC = Convert.ToDateTime("14/01/2020 18:20"),
-                    IMM = "TG43",
-                    LIG = "333",
-                    PKG = "R51",
-                    PAX = 423
+                    Cie = "SK",
+                    Des = "CDG",
+                    Dhc = Convert.ToDateTime("14 January 2020 6:45:00 PM"),
+                    Imm = "TG43",
+                    Lig = "333",
+                    Pkg = "R51",
+                    Pax = 423
                 };
                 db.Add(v2);
 
                 Console.WriteLine("creation du bagage 012387364501");
                 Bagage b1 = new Bagage
                 {
-                    CLASSE = 'Y',
-                    CODEIATA = "012387364501",
-                    DATECREATION = Convert.ToDateTime("14/01/2020 12:52"),
+                    Classe = "Y",
+                    CodeIata = "012387364501",
+                    DateCreation = Convert.ToDateTime("14 January 2020 5:45:00 PM"),
                     Destination = "BEG"
                 };
                 db.Add(b1);
@@ -56,16 +70,24 @@ namespace LO.MyAirport.console
 
                 // Read
                 Console.WriteLine("Voici la liste des vols disponibles");
-                var vol = db.Vols
-                    .OrderBy(v => v.CIE);
+                var vol = db.Vols.OrderBy(v => v.Cie);
                 foreach (var v in vol)
                 {
-                    Console.WriteLine($"Le vol {v.CIE}{v.LIG} N° {v.VolId} a destination de {v.DES} part à {v.DHC} heure");
+                    Console.WriteLine($"Le vol {v.Cie}{v.Lig} N° {v.VolId} a destination de {v.Des} part à {v.Dhc} heure");
                 }
                 Console.ReadLine();
 
                 // Update
-                //Console.WriteLine($"Le bagage {b1.BagageID} est modifié pour être rattaché au
+                Console.WriteLine($"Le bagage {b1.BagageId} est modifié pour être rattaché au vol {v1.VolId} => {v1.Cie}{v1.Lig}");
+                b1.VolId = v1.VolId;
+                db.SaveChanges();
+                Console.ReadLine();
+
+                // Delete vol et bagages du vol
+                Console.WriteLine($"Suppression du vol {v1.VolId} => {v1.Cie}{v1.Lig}");
+                db.Remove(v1);
+                db.SaveChanges();
+                Console.ReadLine();
 
             }
         }
