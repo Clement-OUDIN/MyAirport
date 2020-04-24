@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace LO.MyAirport.EF
 {
@@ -15,30 +16,37 @@ namespace LO.MyAirport.EF
         /// <summary>
         /// Compagnie du vol
         /// </summary>
+        [Display(Name = "Compagnie")]
         public string Cie { get; set; }
         /// <summary>
         /// Ligne du vol
         /// </summary>
+        [Display(Name = "Ligne du vol")]
         public string Lig { get; set; }
         /// <summary>
-        /// Dernier horaire connu, horaire de départ du col
+        /// Dernier horaire connu, horaire de départ du vol
         /// </summary>
+        [Display(Name = "Horaire de départ du vol")]
         public DateTime Dhc { get; set; }
         /// <summary>
         /// Parking affecté au vol
         /// </summary>
+        [Display(Name = "Parking affecté au vol")]
         public string? Pkg { get; set; }
         /// <summary>
         /// N° immatriculation de l'avion
         /// </summary>
+        [Display(Name = "N° immatriculation de l'avion")]
         public string? Imm { get; set; }
         /// <summary>
         /// Nombre de passager du vol
         /// </summary>
+        [Display(Name = "Nombre de passager du vol")]
         public int? Pax { get; set; }
         /// <summary>
         /// Destination finale du vol
         /// </summary>
+        [Display(Name = "Destination finale du vol")]
         public string? Des { get; set; }
         /// <summary>
         /// Propriété de naviguation
@@ -57,7 +65,7 @@ namespace LO.MyAirport.EF
             Cie = compagnie;
             Lig = ligne;
             Dhc = dhc;
-            // Bagages = null;//new List<Bagage>();
+            Bagages = new List<Bagage>();
         }
 
         public Vol()

@@ -10,7 +10,7 @@
             </summary>
         </member>
         <member name="P:LO.MyAirport.EF.Bagage.Vol">
-            <summary>
+            <summary> 
             Propriété de naviguate
             </summary>
         </member>
@@ -88,7 +88,7 @@
         </member>
         <member name="P:LO.MyAirport.EF.Vol.Dhc">
             <summary>
-            Dernier horaire connu, horaire de départ du col
+            Dernier horaire connu, horaire de départ du vol
             </summary>
         </member>
         <member name="P:LO.MyAirport.EF.Vol.Pkg">

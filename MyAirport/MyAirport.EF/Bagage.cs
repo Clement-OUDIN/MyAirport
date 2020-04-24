@@ -1,6 +1,5 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LO.MyAirport.EF
 {
@@ -10,21 +9,25 @@ namespace LO.MyAirport.EF
         /// Identifiant du bagage
         /// </summary>
         public int BagageId { get; set; }
-        /// <summary>
+        /// <summary> 
         /// Propriété de naviguate
         /// </summary>
-        public Vol? Vol { get; set; }
+        public virtual Vol? Vol { get; set; }
         /// <summary>
         /// Identifiant du vol associé au bagage
         /// </summary>
+        [Display(Name = "ID du vol")]
         public int? VolId { get; set; }
         /// <summary>
         /// Date d'ajout du bagage
         /// </summary>
+        [Display(Name = "Date de creation")]
         public DateTime DateCreation { get; set; }
         /// <summary>
         /// Code Iata de la compagnie associée au bagage
         /// </summary>
+        [StringLength(16)]
+        [Display(Name = "Code IATA")]
         public string CodeIata { get; set; }
         /// <summary>
         /// Classe associé au bagage
@@ -37,10 +40,12 @@ namespace LO.MyAirport.EF
         /// <summary>
         /// Status du bagage
         /// </summary>
+        [Display(Name = "Status du bagage")]
         public string? Sta { get; set; }
         /// <summary>
         /// Status de sureté du bagage
         /// </summary>
+        [Display(Name = "Status de sureté du bagage")]
         public string? Ssur { get; set; }
         /// <summary>
         /// Destination finale du vol associé au bagage
@@ -61,11 +66,9 @@ namespace LO.MyAirport.EF
             CodeIata = codeIata;
             DateCreation = dateCreation;
         }
-
-        
         public Bagage()
         {
+
         }
-        
     }
 }

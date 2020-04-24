@@ -52,9 +52,12 @@ C:\Users\Ludo\source\repos\Clement-OUDIN\MyAirport\MyAirport\MyAirportApi\bin\De
 C:\Users\Ludo\source\repos\Clement-OUDIN\MyAirport\MyAirport\MyAirportApi\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 C:\Users\Ludo\source\repos\Clement-OUDIN\MyAirport\MyAirport\MyAirportApi\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\Ludo\source\repos\Clement-OUDIN\MyAirport\MyAirport\MyAirportApi\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Ludo\source\repos\Clement-OUDIN\MyAirport\MyAirport\MyAirportApi\bin\Debug\netcoreapp3.1\MySqlConnector.dll
 C:\Users\Ludo\source\repos\Clement-OUDIN\MyAirport\MyAirport\MyAirportApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Ludo\source\repos\Clement-OUDIN\MyAirport\MyAirport\MyAirportApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\Ludo\source\repos\Clement-OUDIN\MyAirport\MyAirport\MyAirportApi\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Ludo\source\repos\Clement-OUDIN\MyAirport\MyAirport\MyAirportApi\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Ludo\source\repos\Clement-OUDIN\MyAirport\MyAirport\MyAirportApi\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
 C:\Users\Ludo\source\repos\Clement-OUDIN\MyAirport\MyAirport\MyAirportApi\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
 C:\Users\Ludo\source\repos\Clement-OUDIN\MyAirport\MyAirport\MyAirportApi\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
 C:\Users\Ludo\source\repos\Clement-OUDIN\MyAirport\MyAirport\MyAirportApi\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll

@@ -14,8 +14,6 @@ namespace LO.MyAirport.ConsoleApp
 
         static void Main(string[] args)
         {
-            //MyAirportContext airport = new MyAirportContext();
-            /*
             var connectionString = ConfigurationManager.ConnectionStrings["DBConnection"].ConnectionString;
             var optionsBuilder = new DbContextOptionsBuilder<MyAirportContext>();
             optionsBuilder
@@ -23,10 +21,9 @@ namespace LO.MyAirport.ConsoleApp
                     .UseLoggerFactory(MyLoggerFactory);
 
             ILogger logger = MyLoggerFactory.CreateLogger<Program>();
-            */
+
             System.Console.WriteLine("MyAirport project bonjour!!");
-           //using (var db = new MyAirportContext(optionsBuilder.Options))
-           using (var db = new MyAirportContext())
+            using (var db = new MyAirportContext(optionsBuilder.Options))
             {
                 // Create
                 Console.WriteLine("Création du vol LH1232");
